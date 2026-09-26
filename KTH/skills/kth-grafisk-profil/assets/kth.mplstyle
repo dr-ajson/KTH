@@ -1,0 +1,25 @@
+# Matplotlib-stil enligt KTH:s grafiska profil (infografik, s. 16–17 i manualen).
+# Användning:  import matplotlib.pyplot as plt; plt.style.use("assets/kth.mplstyle")
+# Figtree måste vara installerat för att användas; annars faller stilen tillbaka på Arial.
+
+axes.prop_cycle: cycler('color', ['004791', '6298D2', '000061', 'E86A58', '78001A', '339C9C', '1C434C', '4DA060', '0D4A21', 'FFBE00', 'A65900'])
+font.family: sans-serif
+font.sans-serif: Figtree, Arial, DejaVu Sans
+text.color: 212121
+axes.labelcolor: 212121
+axes.titlecolor: 000061
+axes.titleweight: bold
+axes.titlelocation: left
+axes.edgecolor: 323232
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.grid.axis: y
+grid.color: E6E6E6
+grid.linewidth: 0.8
+xtick.color: 323232
+ytick.color: 323232
+lines.linewidth: 2.2
+figure.facecolor: FFFFFF
+axes.facecolor: FFFFFF
+legend.frameon: False

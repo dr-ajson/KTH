@@ -1,0 +1,35 @@
+/* KTH:s grafiska profil som CSS-variabler. Källa: KTH Grafisk manual v1.2 (2024).
+   Figtree hämtas från Google Fonts; Georgia finns förinstallerat. */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  /* Primärfärger */
+  --kth-vit: #FFFFFF;
+  --kth-sand: #EBE5E0;
+  --kth-bla: #004791;
+  --kth-himmelsbla: #6298D2;
+  --kth-marinbla: #000061;
+  --kth-ljusbla: #DEF0FF;
+  --kth-digitalbla: #0029ED;   /* endast skärm */
+
+  /* Funktionsfärger – diagram, rapporter, presentationer. Aldrig bakom logotypen. */
+  --kth-morkgron: #0D4A21;  --kth-gron: #4DA060;    --kth-ljusgron: #C7EBBA;
+  --kth-mork-turkos: #1C434C; --kth-turkos: #339C9C; --kth-ljus-turkos: #B2E0E0;
+  --kth-mork-tegel: #78001A; --kth-tegel: #E86A58;   --kth-ljus-tegel: #FFCCC4;
+  --kth-morkgul: #A65900;   --kth-gul: #FFBE00;     --kth-ljusgul: #FFF0B0;
+  --kth-morkgra: #323232;   --kth-gra: #A5A5A5;     --kth-ljusgra: #E6E6E6;
+  --kth-bruten-svart: #212121; /* textfärg webb */
+  --kth-bruten-vit: #FCFCFC;   /* textfärg webb */
+
+  /* Typografi */
+  --kth-font-rubrik: "Figtree", Arial, sans-serif;
+  --kth-font-brodtext: Georgia, "Times New Roman", serif;
+  --kth-lh-rubrik: 1.1;     /* 100–115 % */
+  --kth-lh-ingress: 1.2;    /* 120 % */
+  --kth-lh-brodtext: 1.25;  /* Georgia 125 %, Figtree-brödtext 120 % */
+}
+
+body { font-family: var(--kth-font-brodtext); line-height: var(--kth-lh-brodtext); color: var(--kth-bruten-svart); background: var(--kth-bruten-vit); }
+h1, h2 { font-family: var(--kth-font-rubrik); font-weight: 700; line-height: var(--kth-lh-rubrik); color: var(--kth-marinbla); }
+h3, h4 { font-family: var(--kth-font-rubrik); font-weight: 700; line-height: 1.2; color: var(--kth-marinbla); }
+.ingress { font-family: var(--kth-font-rubrik); font-weight: 400; line-height: var(--kth-lh-ingress); }

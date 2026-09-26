@@ -1,0 +1,48 @@
+{
+  "_kalla": "KTH Grafisk manual, version 1.2 (2024), s. 11, 14 och 16",
+  "_forklaring": "cmyk_b = bestruket papper, cmyk_o = obestruket papper. Digitalblå och de brutna färgerna är endast för skärm.",
+  "primarfarger": {
+    "vit":        {"namn": "Vit",        "hex": "#FFFFFF", "rgb": [255, 255, 255], "cmyk_b": [0, 0, 0, 0],      "cmyk_o": [0, 0, 0, 0]},
+    "sand":       {"namn": "Sand",       "hex": "#EBE5E0", "rgb": [235, 229, 224], "cmyk_b": [9, 9, 12, 0],     "cmyk_o": [9, 9, 12, 0],     "pms_b": "Warm Grey 1C", "pms_o": "Warm Grey 1U", "ncs": "S 1000-N"},
+    "kth_bla":    {"namn": "KTH-blå",    "hex": "#004791", "rgb": [0, 71, 145],    "cmyk_b": [100, 70, 0, 12],  "cmyk_o": [100, 70, 0, 12],  "pms_b": "7686 C",       "pms_o": "287 U",        "ncs": "S 4050-R80B"},
+    "himmelsbla": {"namn": "Himmelsblå", "hex": "#6298D2", "rgb": [98, 152, 210],  "cmyk_b": [54, 14, 0, 0],    "cmyk_o": [42, 10, 0, 2],    "pms_b": "284 C",        "pms_o": "284 U",        "ncs": "S 1040-R80B"},
+    "marinbla":   {"namn": "Marinblå",   "hex": "#000061", "rgb": [0, 0, 97],      "cmyk_b": [100, 95, 0, 43],  "cmyk_o": [100, 90, 0, 35],  "pms_b": "2757 C",       "pms_o": "2757 U",       "ncs": "S 5540-R70B"},
+    "ljusbla":    {"namn": "Ljusblå",    "hex": "#DEF0FF", "rgb": [222, 240, 255], "cmyk_b": [15, 0, 0, 0],     "cmyk_o": [15, 0, 0, 0],     "pms_b": "2707 C",       "pms_o": "2707 U",       "ncs": "S 0515-R80B"},
+    "digitalbla": {"namn": "Digitalblå", "hex": "#0029ED", "rgb": [0, 41, 237],    "endast_skarm": true, "anmarkning": "Kan inte tryckas. Använd KTH-blå i tryck. Kallas Accentblå i kontrasttabellen."}
+  },
+  "funktionsfarger": {
+    "morkgron":    {"namn": "Mörkgrön",    "hex": "#0D4A21", "rgb": [13, 74, 33],    "cmyk": [75, 5, 75, 70]},
+    "gron":        {"namn": "Grön",        "hex": "#4DA060", "rgb": [77, 160, 97],   "cmyk": [72, 13, 75, 0]},
+    "ljusgron":    {"namn": "Ljusgrön",    "hex": "#C7EBBA", "rgb": [199, 235, 186], "cmyk": [27, 0, 36, 0]},
+    "mork_turkos": {"namn": "Mörk turkos", "hex": "#1C434C", "rgb": [28, 67, 76],    "cmyk": [80, 45, 40, 57]},
+    "turkos":      {"namn": "Turkos",      "hex": "#339C9C", "rgb": [51, 156, 156],  "cmyk": [72, 17, 38, 7]},
+    "ljus_turkos": {"namn": "Ljus turkos", "hex": "#B2E0E0", "rgb": [178, 224, 224], "cmyk": [34, 0, 16, 0]},
+    "mork_tegel":  {"namn": "Mörk tegel",  "hex": "#78001A", "rgb": [120, 0, 26],    "cmyk": [10, 100, 60, 57]},
+    "tegel":       {"namn": "Tegel",       "hex": "#E86A58", "rgb": [232, 106, 88],  "cmyk": [5, 70, 64, 0]},
+    "ljus_tegel":  {"namn": "Ljus tegel",  "hex": "#FFCCC4", "rgb": [255, 204, 196], "cmyk": [0, 28, 18, 0]},
+    "morkgul":     {"namn": "Mörkgul",     "hex": "#A65900", "rgb": [166, 89, 0],    "cmyk": [25, 65, 100, 20]},
+    "gul":         {"namn": "Gul",         "hex": "#FFBE00", "rgb": [255, 190, 0],   "cmyk": [0, 30, 95, 0]},
+    "ljusgul":     {"namn": "Ljusgul",     "hex": "#FFF0B0", "rgb": [255, 240, 176], "cmyk": [0, 4, 39, 0]},
+    "morkgra":     {"namn": "Mörkgrå",     "hex": "#323232", "rgb": [50, 50, 50],    "cmyk": [0, 0, 0, 90]},
+    "gra":         {"namn": "Grå",         "hex": "#A5A5A5", "rgb": [165, 165, 165], "cmyk": [0, 0, 0, 45]},
+    "ljusgra":     {"namn": "Ljusgrå",     "hex": "#E6E6E6", "rgb": [230, 230, 230], "cmyk": [0, 0, 0, 15]},
+    "bruten_svart":{"namn": "Bruten svart","hex": "#212121", "rgb": [33, 33, 33],    "endast_skarm": true, "anmarkning": "Endast textfärg på webb."},
+    "bruten_vit":  {"namn": "Bruten vit",  "hex": "#FCFCFC", "rgb": [252, 252, 252], "endast_skarm": true, "anmarkning": "Endast textfärg på webb."}
+  },
+  "infografik_ordning": {
+    "_regel": "Använd i denna ordning. De tre blå först. Funktionsfärgerna efter strecket får byta plats så länge varannan är ljus och varannan mörk. Man får börja var som helst i ordningen.",
+    "farger": [
+      {"namn": "KTH-blå",     "hex": "#004791"},
+      {"namn": "Himmelsblå",  "hex": "#6298D2"},
+      {"namn": "Marinblå",    "hex": "#000061"},
+      {"namn": "Röd (Tegel)", "hex": "#E86A58"},
+      {"namn": "Mörkröd (Mörk tegel)", "hex": "#78001A"},
+      {"namn": "Turkos",      "hex": "#339C9C"},
+      {"namn": "Mörk turkos", "hex": "#1C434C"},
+      {"namn": "Grön",        "hex": "#4DA060"},
+      {"namn": "Mörkgrön",    "hex": "#0D4A21"},
+      {"namn": "Gul",         "hex": "#FFBE00"},
+      {"namn": "Mörkgul",     "hex": "#A65900"}
+    ]
+  }
+}
